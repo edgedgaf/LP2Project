@@ -1,0 +1,14 @@
+/home/edge/RiderProjects/ConsoleApp2/TrabalhoJoao/bin/Debug/net8.0/TrabalhoJoao
+/home/edge/RiderProjects/ConsoleApp2/TrabalhoJoao/bin/Debug/net8.0/TrabalhoJoao.deps.json
+/home/edge/RiderProjects/ConsoleApp2/TrabalhoJoao/bin/Debug/net8.0/TrabalhoJoao.runtimeconfig.json
+/home/edge/RiderProjects/ConsoleApp2/TrabalhoJoao/bin/Debug/net8.0/TrabalhoJoao.dll
+/home/edge/RiderProjects/ConsoleApp2/TrabalhoJoao/bin/Debug/net8.0/TrabalhoJoao.pdb
+/home/edge/RiderProjects/ConsoleApp2/TrabalhoJoao/obj/Debug/net8.0/TrabalhoJoao.GeneratedMSBuildEditorConfig.editorconfig
+/home/edge/RiderProjects/ConsoleApp2/TrabalhoJoao/obj/Debug/net8.0/TrabalhoJoao.AssemblyInfoInputs.cache
+/home/edge/RiderProjects/ConsoleApp2/TrabalhoJoao/obj/Debug/net8.0/TrabalhoJoao.AssemblyInfo.cs
+/home/edge/RiderProjects/ConsoleApp2/TrabalhoJoao/obj/Debug/net8.0/TrabalhoJoao.csproj.CoreCompileInputs.cache
+/home/edge/RiderProjects/ConsoleApp2/TrabalhoJoao/obj/Debug/net8.0/TrabalhoJoao.dll
+/home/edge/RiderProjects/ConsoleApp2/TrabalhoJoao/obj/Debug/net8.0/refint/TrabalhoJoao.dll
+/home/edge/RiderProjects/ConsoleApp2/TrabalhoJoao/obj/Debug/net8.0/TrabalhoJoao.pdb
+/home/edge/RiderProjects/ConsoleApp2/TrabalhoJoao/obj/Debug/net8.0/TrabalhoJoao.genruntimeconfig.cache
+/home/edge/RiderProjects/ConsoleApp2/TrabalhoJoao/obj/Debug/net8.0/ref/TrabalhoJoao.dll
