@@ -1,0 +1,14 @@
+C:\Users\labsc3\source\repos\TrabalhoJoaoLP2\TrabalhoJoaoLP2\bin\Debug\net8.0\TrabalhoJoaoLP2.exe
+C:\Users\labsc3\source\repos\TrabalhoJoaoLP2\TrabalhoJoaoLP2\bin\Debug\net8.0\TrabalhoJoaoLP2.deps.json
+C:\Users\labsc3\source\repos\TrabalhoJoaoLP2\TrabalhoJoaoLP2\bin\Debug\net8.0\TrabalhoJoaoLP2.runtimeconfig.json
+C:\Users\labsc3\source\repos\TrabalhoJoaoLP2\TrabalhoJoaoLP2\bin\Debug\net8.0\TrabalhoJoaoLP2.dll
+C:\Users\labsc3\source\repos\TrabalhoJoaoLP2\TrabalhoJoaoLP2\bin\Debug\net8.0\TrabalhoJoaoLP2.pdb
+C:\Users\labsc3\source\repos\TrabalhoJoaoLP2\TrabalhoJoaoLP2\obj\Debug\net8.0\TrabalhoJoaoLP2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\labsc3\source\repos\TrabalhoJoaoLP2\TrabalhoJoaoLP2\obj\Debug\net8.0\TrabalhoJoaoLP2.AssemblyInfoInputs.cache
+C:\Users\labsc3\source\repos\TrabalhoJoaoLP2\TrabalhoJoaoLP2\obj\Debug\net8.0\TrabalhoJoaoLP2.AssemblyInfo.cs
+C:\Users\labsc3\source\repos\TrabalhoJoaoLP2\TrabalhoJoaoLP2\obj\Debug\net8.0\TrabalhoJoaoLP2.csproj.CoreCompileInputs.cache
+C:\Users\labsc3\source\repos\TrabalhoJoaoLP2\TrabalhoJoaoLP2\obj\Debug\net8.0\TrabalhoJoaoLP2.dll
+C:\Users\labsc3\source\repos\TrabalhoJoaoLP2\TrabalhoJoaoLP2\obj\Debug\net8.0\refint\TrabalhoJoaoLP2.dll
+C:\Users\labsc3\source\repos\TrabalhoJoaoLP2\TrabalhoJoaoLP2\obj\Debug\net8.0\TrabalhoJoaoLP2.pdb
+C:\Users\labsc3\source\repos\TrabalhoJoaoLP2\TrabalhoJoaoLP2\obj\Debug\net8.0\TrabalhoJoaoLP2.genruntimeconfig.cache
+C:\Users\labsc3\source\repos\TrabalhoJoaoLP2\TrabalhoJoaoLP2\obj\Debug\net8.0\ref\TrabalhoJoaoLP2.dll
