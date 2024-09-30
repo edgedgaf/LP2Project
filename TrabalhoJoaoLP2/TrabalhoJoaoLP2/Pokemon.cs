@@ -1,13 +1,16 @@
-﻿namespace TrabalhoJoaoLP2;
+﻿using System.Drawing;
 
-public class Pokemon
+namespace TrabalhoJoaoLP2;
+
+ class Pokemon
 {
     private int lvl = 8;
     private int HP;
     private string nome;
     public int codTipoAtaque;
     private string tipo;
-    public string[] ataques = new string[4];
+    public  ConsoleColor cor;
+    public Ataques[] attack = new Ataques[4];
     public bool isEfective;
     public Pokemon(int x)
     {
@@ -17,25 +20,29 @@ public class Pokemon
                 HP = 100;
                 nome = "Charmander";
                 tipo = "Fogo";
-                for (int i = 0; i < 4; i++) ataques[i] = $"Ataque {i + 1}";
+                cor = ConsoleColor.Red;
+                
                 break;
             case 2:
                 HP = 100;
                 nome = "Pikachu";
                 tipo = "Elétrico";
-                for (int i = 0; i < 4; i++) ataques[i] = $"Ataque {i + 1}";
+                cor = ConsoleColor.Yellow;
+                
                 break;
             case 3:
                 HP = 100;
                 nome = "Squirtle";
                 tipo = "Água";
-                for (int i = 0; i < 4; i++) ataques[i] = $"Ataque {i + 1}";
+                cor = ConsoleColor.Blue;
+                
                 break;
             case 4:
                 HP = 100;
                 nome = "Bulbasaur";
                 tipo = "Planta";
-                for (int i = 0; i < 4; i++) ataques[i] = $"Ataque {i + 1}";
+                cor = ConsoleColor.Green;
+                
                 break;
             default:
                 return;

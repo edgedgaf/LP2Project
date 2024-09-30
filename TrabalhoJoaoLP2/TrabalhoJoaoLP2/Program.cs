@@ -13,7 +13,7 @@ int counter = 0;
 bool isSelected = false;
 string setinha = "->";
 (int X, int Y) = Console.GetCursorPosition();
-
+Console.CursorVisible = false;
 while (!isSelected)
 {
     Console.SetCursorPosition(X, Y);
@@ -39,7 +39,9 @@ while (!isSelected)
     }
 
 }
-
+Random randomTrainer = new Random();
+int randomPlayer1 = randomTrainer.Next(1, 101);
+int randomPlayer2 = randomTrainer.Next(1, 102);
 int p1 = 0;
 int p2 = 0;
 Pokemon player1;
@@ -47,15 +49,43 @@ Pokemon player2;
 switch (seletor)
 {
     case 1:
-        Console.Clear();
+        if(randomPlayer1 > randomPlayer2)
+        {
+            Console.Clear();
         Console.WriteLine("Escolha o pokemon do P1: ");
         p1 = Batalhas.escolherPokemon();
         player1 = new Pokemon(p1);
         Console.WriteLine("Escolha o pokemon do P2: ");
-        p2 = Batalhas.escolherPokemon();
+        p2 = randomTrainer.Next(1, 4);
         player2 = new Pokemon(p2);
+        }
+        else if (randomPlayer1 < randomPlayer2)
+        {
+            Console.Clear();
+            Console.WriteLine("Escolha o pokemon do P2: ");
+            p2 = Batalhas.escolherPokemon();
+            player2 = new Pokemon(p2);
+            Console.WriteLine("Escolha o pokemon do P2: ");
+            p1 = randomTrainer.Next(1, 4);
+            player1 = new Pokemon(p1);
+        }
+        else
+        {
+            Console.Clear();
+            Console.WriteLine("Escolha o pokemon do P1: ");
+            p1 = Batalhas.escolherPokemon();
+            player1 = new Pokemon(p1);
+            Console.WriteLine("Escolha o pokemon do P2: ");
+            p2 = randomTrainer.Next(1, 4);
+            player2 = new Pokemon(p2);
+        }
+        Console.Clear();
+        Console.ForegroundColor = player1.cor;
         Console.WriteLine($"{player1} \n {player1.printAtaques()}");
+        Console.ForegroundColor = player2.cor;
         Console.WriteLine($"{player2} \n {player2.printAtaques()}");
+        Console.ResetColor();
+        Console.ReadKey();
         Batalhas.start(player1, player2);
         break;
 

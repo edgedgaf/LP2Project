@@ -7,10 +7,13 @@ using System.Threading.Tasks;
 
 namespace TrabalhoJoaoLP2
 {
-    internal class Ataques
+    internal abstract class Ataques
     {
-        private string tipoAtaque;
+        public string tipoAtaque;
         public int codTipoAtaque;
         public int Usages;
+        public int dano;
+        public bool isEffective;
+        public abstract void ataqueAction();
     }
 }

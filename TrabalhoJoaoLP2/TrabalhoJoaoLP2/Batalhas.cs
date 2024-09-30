@@ -1,6 +1,6 @@
 ﻿namespace TrabalhoJoaoLP2;
 
-public class Batalhas
+class Batalhas
 {
     public static int escolherPokemon()
     {
@@ -74,18 +74,23 @@ public class Batalhas
         }
         return seletor;
     }
-    public static int ataque(Pokemon a, Pokemon b)
+    /*public static int ataque(Pokemon a, Pokemon b)
     {
-        if(a.codTipo 1)
+       0 if(a.codTipo 1)
 
 
 
 
 
         return dano;
-    }
+}*/
+ 
 
-    public static void start(Pokemon a, Pokemon b)
+public static bool isEffective()
+ {
+
+ }
+public static void start(Pokemon a, Pokemon b)
     {
         Console.Clear();
         int windowSizeY = Console.WindowWidth;
