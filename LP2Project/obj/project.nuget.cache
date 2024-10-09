@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "FJKmoJTQfgdHwkIzb4NPbmEBL1ae2kyV5N+5ov+Zv1/AHGoMD3Bn7LHgTEOTaKjInPlqq4XCmlp9UkTmvdu5rg==",
+  "success": true,
+  "projectFilePath": "/home/edge/Área de trabalho/LP2Project/Área de trabalho.csproj",
+  "expectedPackageFiles": [
+    "/home/edge/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.8/microsoft.aspnetcore.app.ref.8.0.8.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,14 @@
+/home/edge/Área de trabalho/LP2Project/bin/Debug/net8.0/Área de trabalho
+/home/edge/Área de trabalho/LP2Project/bin/Debug/net8.0/Área de trabalho.deps.json
+/home/edge/Área de trabalho/LP2Project/bin/Debug/net8.0/Área de trabalho.runtimeconfig.json
+/home/edge/Área de trabalho/LP2Project/bin/Debug/net8.0/Área de trabalho.dll
+/home/edge/Área de trabalho/LP2Project/bin/Debug/net8.0/Área de trabalho.pdb
+/home/edge/Área de trabalho/LP2Project/obj/Debug/net8.0/Área de trabalho.GeneratedMSBuildEditorConfig.editorconfig
+/home/edge/Área de trabalho/LP2Project/obj/Debug/net8.0/Área de trabalho.AssemblyInfoInputs.cache
+/home/edge/Área de trabalho/LP2Project/obj/Debug/net8.0/Área de trabalho.AssemblyInfo.cs
+/home/edge/Área de trabalho/LP2Project/obj/Debug/net8.0/Área de trabalho.csproj.CoreCompileInputs.cache
+/home/edge/Área de trabalho/LP2Project/obj/Debug/net8.0/Área de trabalho.dll
+/home/edge/Área de trabalho/LP2Project/obj/Debug/net8.0/refint/Área de trabalho.dll
+/home/edge/Área de trabalho/LP2Project/obj/Debug/net8.0/Área de trabalho.pdb
+/home/edge/Área de trabalho/LP2Project/obj/Debug/net8.0/Área de trabalho.genruntimeconfig.cache
+/home/edge/Área de trabalho/LP2Project/obj/Debug/net8.0/ref/Área de trabalho.dll
