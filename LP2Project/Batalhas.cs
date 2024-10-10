@@ -126,6 +126,7 @@ public static void start(Pokemon a, Pokemon b)
         int counter = 0;
         int action;
         int idAttack = 1;
+        double dano;
         while(true)
         {
             
@@ -154,7 +155,13 @@ public static void start(Pokemon a, Pokemon b)
                     Console.Clear();
                     idAttack = Batalhas.chooseAttack(a);
                 }
-                b.HP = b.HP - resolveAttack(a.attack[idAttack], b);
+                if(a.attack[idAttack].isOffensive)
+                {
+                    dano = resolveAttack(b.attack[idAttack], a);
+                    b.HP = b.HP - dano;
+                    Console.WriteLine($"O jogador a causou {dano} de dano \nvida do jogador B {b.HP}/{b.hpMAX}");
+                    Console.ReadKey();
+                }
                 counter++;
             }
             else if (counter % 2 != 0)
@@ -163,13 +170,19 @@ public static void start(Pokemon a, Pokemon b)
                 Console.WriteLine("Vez do Player 2!");
                 Console.WriteLine("Escolha sua ação: ");
                 action = Batalhas.battleActions();
-                counter++;
+               
                 if(action == 1)
                 {
                     Console.Clear();
                     idAttack = Batalhas.chooseAttack(b);  
                 }
-                a.HP = a.HP - resolveAttack(b.attack[idAttack], a);
+                if(b.attack[idAttack].isOffensive)
+                {
+                    dano = resolveAttack(b.attack[idAttack], a);
+                    a.HP = a.HP - dano;
+                    Console.WriteLine($"O jogador b causou {dano} de dano \nvida do jogador A {a.HP}/{a.hpMAX}");
+                    Console.ReadKey();
+                }
                 counter++;
             }
 

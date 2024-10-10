@@ -5,6 +5,7 @@ namespace LP2Project;
  class Pokemon
 {
     private int lvl = 8;
+    public double hpMAX;
     public double HP;
     private string nome;
     public int codTipoPokemon;
@@ -21,14 +22,15 @@ namespace LP2Project;
                 tipo = "Fogo";
                 cor = ConsoleColor.Red;
                 codTipoPokemon = 0;
-
+                hpMAX = HP;
                 
                 attack[0] = new Ataques
                 {
                     nome = "Scratch",  
                     codTipoAtaque = 1,      
                     Usages = 35,
-                    dano = 40
+                    dano = 40,
+                    isOffensive = true
                 };
 
                 attack[1] = new Ataques
@@ -36,7 +38,8 @@ namespace LP2Project;
                     nome = "Ember",    
                     codTipoAtaque = 0,       
                     Usages = 25,
-                    dano = 40
+                    dano = 40,
+                    isOffensive = true
                 };
 
                 attack[2] = new Ataques
@@ -44,7 +47,8 @@ namespace LP2Project;
                     nome = "Growl",    
                     codTipoAtaque = 1,      
                     Usages = 40,
-                    dano = 0                 
+                    dano = 0,     
+                    isOffensive = false    
                 };
 
                 attack[3] = new Ataques
@@ -52,7 +56,8 @@ namespace LP2Project;
                     nome = "Flamethrower",  
                     codTipoAtaque = 0,           
                     Usages = 15,
-                    dano = 90
+                    dano = 90,
+                    isOffensive = true
                 };
                 break;
 
@@ -62,14 +67,15 @@ namespace LP2Project;
                 tipo = "Elétrico";
                 cor = ConsoleColor.Yellow;
                 codTipoPokemon = 4;
-
+                hpMAX = HP;
               
                 attack[0] = new Ataques
                 {
                     nome = "Quick Attack",  
                     codTipoAtaque = 1,            
                     Usages = 30,
-                    dano = 40
+                    dano = 40,
+                    isOffensive = true
                 };
 
                 attack[1] = new Ataques
@@ -77,7 +83,8 @@ namespace LP2Project;
                     nome = "Thunder Shock", 
                     codTipoAtaque = 4,            
                     Usages = 30,
-                    dano = 40
+                    dano = 40,
+                    isOffensive = true
                 };
 
                 attack[2] = new Ataques
@@ -85,7 +92,8 @@ namespace LP2Project;
                     nome = "Thunder Wave",  
                     codTipoAtaque = 4,            
                     Usages = 20,
-                    dano = 0                     
+                    dano = 0,
+                    isOffensive = false                     
                 };
 
                 attack[3] = new Ataques
@@ -93,7 +101,8 @@ namespace LP2Project;
                     nome = "Thunderbolt",   
                     codTipoAtaque = 4,            
                     Usages = 15,
-                    dano = 90
+                    dano = 90,
+                    isOffensive = true
                 };
                 break;
 
@@ -103,14 +112,16 @@ namespace LP2Project;
                 tipo = "Água";
                 cor = ConsoleColor.Blue;
                 codTipoPokemon = 1;
-
+                hpMAX = HP;
                 
                 attack[0] = new Ataques
                 {
                     nome = "Tackle",        
                     codTipoAtaque = 1,            
                     Usages = 35,
-                    dano = 40
+                    dano = 40,
+                    isOffensive = true
+
                 };
 
                 attack[1] = new Ataques
@@ -118,7 +129,8 @@ namespace LP2Project;
                     nome = "Water Gun",     
                     codTipoAtaque = 1,            
                     Usages = 25,
-                    dano = 40
+                    dano = 40,
+                    isOffensive = true
                 };
 
                 attack[2] = new Ataques
@@ -126,7 +138,8 @@ namespace LP2Project;
                     nome = "Tail Whip",     
                     codTipoAtaque = 1,           
                     Usages = 30,
-                    dano = 0                    
+                    dano = 0,
+                    isOffensive = false             
                 };
 
                 attack[3] = new Ataques
@@ -134,7 +147,8 @@ namespace LP2Project;
                     nome = "Hydro Pump",   
                     codTipoAtaque = 1,           
                     Usages = 5,
-                    dano = 110
+                    dano = 110,
+                    isOffensive = true
                 };
                 break;
 
@@ -144,14 +158,15 @@ namespace LP2Project;
                 tipo = "Planta";
                 cor = ConsoleColor.Green;
                 codTipoPokemon = 3;
-
+                hpMAX = HP;
                 
                 attack[0] = new Ataques
                 {
                     nome = "Tackle",        
                     codTipoAtaque = 1,            
                     Usages = 35,
-                    dano = 40
+                    dano = 40,
+                    isOffensive = true
                 };
 
                 attack[1] = new Ataques
@@ -159,7 +174,8 @@ namespace LP2Project;
                     nome = "Vine Whip",  
                     codTipoAtaque = 3,          
                     Usages = 25,
-                    dano = 45
+                    dano = 45,
+                    isOffensive = true
                 };
 
                 attack[2] = new Ataques
@@ -167,7 +183,8 @@ namespace LP2Project;
                     nome = "Growl",         
                     codTipoAtaque = 1,         
                     Usages = 40,
-                    dano = 0                     
+                    dano = 0,
+                    isOffensive = true          
                 };
 
                 attack[3] = new Ataques
@@ -175,12 +192,12 @@ namespace LP2Project;
                     nome = "Razor Leaf",   
                     codTipoAtaque = 3,           
                     Usages = 25,
-                    dano = 55
+                    dano = 55,
+                    isOffensive = true
                 };
                 break;
 
-            default:
-                return;
+
         }
     }
 

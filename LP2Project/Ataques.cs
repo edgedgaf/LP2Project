@@ -14,7 +14,8 @@ namespace LP2Project
         public int codTipoAtaque;
         public int Usages;
         public double dano;
-
+        public bool isOffensive;
+        public string efeito;
         public override string ToString()
         {
             return nome;
