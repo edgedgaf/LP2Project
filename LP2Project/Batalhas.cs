@@ -159,7 +159,7 @@ public static void start(Pokemon a, Pokemon b)
                 {
                     dano = resolveAttack(b.attack[idAttack], a);
                     b.HP = b.HP - dano;
-                    Console.WriteLine($"O jogador a causou {dano} de dano \nvida do jogador B {b.HP}/{b.hpMAX}");
+                    Console.WriteLine($"O jogador a causou {dano} de dano \nvida do jogador B {(b.HP < 0 ? 0 : b.HP)}/{b.hpMAX}");
                     Console.ReadKey();
                 }
                 counter++;
@@ -180,7 +180,7 @@ public static void start(Pokemon a, Pokemon b)
                 {
                     dano = resolveAttack(b.attack[idAttack], a);
                     a.HP = a.HP - dano;
-                    Console.WriteLine($"O jogador b causou {dano} de dano \nvida do jogador A {a.HP}/{a.hpMAX}");
+                    Console.WriteLine($"O jogador b causou {dano} de dano \nvida do jogador A {(a.HP < 0 ? 0 : a.HP)}/{a.hpMAX}");
                     Console.ReadKey();
                 }
                 counter++;
